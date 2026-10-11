@@ -2770,6 +2770,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nio/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/nio/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
     vendor/motorola/nio/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
+    vendor/motorola/nio/proprietary/vendor/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc \
     vendor/motorola/nio/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_1080x2520_670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tm_1080x2520_670.xml \
     vendor/motorola/nio/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/motorola/nio/proprietary/vendor/etc/sensors/config/lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6ds3c_0.json \
@@ -2921,6 +2922,10 @@ PRODUCT_PACKAGES += \
     libvidhance_stabilizer \
     vendor.egistec.hardware.fingerprint@2.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.zui.hardware.ifaa@1.0 \
+    IfaaService \
+    SoterService \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    fpc_ident
+    fpc_ident \
+    vendor.zui.hardware.ifaa@1.0-service
