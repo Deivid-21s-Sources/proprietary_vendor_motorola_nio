@@ -2899,12 +2899,15 @@ PRODUCT_PACKAGES += \
     libets_teeclient \
     libfcell \
     libipebpsstriping \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmot_afd \
     libmot_chi_desktop_helper \
     libmot_flash_aw3643 \
     libmot_lux_standardization \
     libmotcameramodulemonitor \
     libmpbase \
+    libmulticam_image_optical_zoom \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
     libofflinelog \
